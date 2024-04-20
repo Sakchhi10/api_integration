@@ -1,0 +1,37 @@
+/* src/Pagination.css */
+
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    display: inline;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.pagination li a:hover {
+    background-color: #ddd;
+}
